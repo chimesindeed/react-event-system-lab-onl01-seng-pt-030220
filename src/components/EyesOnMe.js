@@ -5,6 +5,6 @@ export default class EyesOnMe extends React.Component {
   handleOnFocus = () => {return console.log('Good')}
   
   render = () => {
-    return <button onBlur = {handleOnBlur} onFocus = {handleOnFocus}/>
+    return <button onBlur = {this.handleOnBlur} onFocus = {this.handleOnFocus}/>
 }
 }
