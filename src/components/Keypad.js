@@ -3,7 +3,7 @@ import React from 'react'
 
 class EyesOnMe extends React.Component {
 
-  const handleKeyUp = () => {
+  handleKeyUp = () => {
     return console.log('Entering password . . .')
   }
   render = () => {
